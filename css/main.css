@@ -1,0 +1,133 @@
+body{
+    background-color: #F7ECDE;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    font-weight: 500;
+    color: #352e28;
+    position: relative;
+}
+
+h1::before{
+    content:"";
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    background-color: #fec260;
+    z-index: -1;
+    transition: 350ms;
+}
+
+h1:hover::before{
+    height: 60%;
+}
+
+.data{
+    padding-top: 48px;
+}
+
+.table1{
+    margin-top: 48px;
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: #352e28;
+    padding-bottom: 1.5rem ;
+}
+
+h2{
+    font-family: "Righteous", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #3FA65C;
+    text-align: center;
+}
+
+h2 span{
+    color: #B1AC4A;
+}
+
+h2 .icon-2{
+    color: #B1AC4A;
+}
+
+label{
+    font-size: 16px;
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 600;
+}
+label i{
+    background: none !important;
+}
+
+.submit{
+    width: fit-content;
+    text-align: center;
+    background-color: #D1512D !important;
+    border: none !important;
+    padding-right: 3rem !important;
+    padding-left: 3rem !important; 
+    font-family: "PT Sans Caption", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+}
+
+.submit:hover{
+    background-color: #BB4120 !important;
+}
+
+table{
+    background-color: #F8F9FA;
+}
+
+table th{
+    font-size: 16px;
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 700;
+    background-color: #F8F9FA;
+}
+
+table td {
+    vertical-align: middle;
+}
+
+table td button{
+    padding: 6px 12px !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    font-family: "PT Sans Caption", sans-serif !important;
+    border: none !important;
+}
+
+.visit{
+    background-color: #9EB23B;
+    border: none !important;
+}
+
+.visit:hover{
+    background-color: #8A9E23;
+}
+
+.visit:focus{
+    background-color: white;
+    color: black;
+    border: 1px solid black !important;
+}
+
+.delete{
+    background-color: #EB1D36;
+}
+
+.delete:hover{
+    background-color: #D30820;
+}
+
+.delete:focus{
+    background-color: white;
+    color: black;
+    border: 1px solid black !important;
+}
